@@ -1,0 +1,104 @@
+/* Header Styling */
+header {
+    background-color: #003366; /* Deep blue background color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1000; /* Ensures the header stays on top */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Large font size for the header */
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Removes default list bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center-aligns the menu items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0; /* Light grey text color */
+    font-size: 1.2em;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #004080; /* Dark blue background color on hover */
+    color: #ffffff; /* White text color on hover */
+    border-radius: 5px; /* Rounded corners for the hover effect */
+}
+
+/* General Contact Page Styling */
+#contact {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-info, .contact-form, .map {
+    background-color: #004080; /* Dark background for sections */
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info h3, .contact-form h3, .map h3 {
+    margin-top: 0;
+}
+
+/* Contact Form Styling */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: #f0a500; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e08e00; /* Darker shade on hover */
+}
+
+/* Map Styling */
+.map iframe {
+    width: 100%;
+    border-radius: 10px;
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007177;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-color: #007BFF;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #FF5733;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #007177;
+    color: white;
+}
+/* Contact Support Button Styling */
+.contact-support {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px;  /* Distance from the right */
+    z-index: 1000; /* Ensures it stays on top of other content */
+}
+
+.contact-link {
+    display: block;
+    background-color: #004080; /* Button background color */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+/* Social Media Icons Styling */
+.social-media {
+    position: fixed; /* Fixes the position relative to the viewport */
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px; /* Distance from the right of the viewport */
+    z-index: 1000; /* Ensures the icons stay on top of other elements */
+}
+
+.social-icon {
+    color: #333; /* Dark grey color for the icons */
+    font-size: 24px; /* Size of the icons */
+    margin: 0 10px; /* Space between icons */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Bright blue color on hover */
+    transform: scale(1.2); /* Slightly enlarges the icon on hover */
+}
